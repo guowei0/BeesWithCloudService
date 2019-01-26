@@ -1,0 +1,91 @@
+.el-dialog {
+  width: 839px;
+  height: 642px;
+  background: #fff;
+  margin: auto auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.el-dialog .el-dialog__header {
+  width: 100%;
+  border-bottom: solid 1px #eee;
+}
+
+.el-dialog .el-form {
+  width: 100%;
+}
+
+.el-dialog .el-form .el-form-item {
+  width: 100%;
+}
+
+.el-dialog .el-form .el-form-item .el-form-item__label {
+  width: 100%;
+  line-height: 50px;
+}
+
+.el-dialog .el-form .el-form-item .el-form-item__content {
+  width: 100%;
+  line-height: 50px;
+}
+
+.el-dialog .el-form .el-form-item .el-select {
+  width: 200px;
+  line-height: 50px;
+}
+
+.el-dialog .el-form .el-form-item .quill-editor.quill {
+  width: 578px;
+  height: 220px;
+  margin-bottom: 130px;
+}
+
+.orderFollow .el-dialog__header {
+  width: 100%;
+  border-bottom: solid 1px #eee;
+}
+
+.orderFollow .order_all_size {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.orderFollow .order_all_size span {
+  width: 100%;
+  line-height: 44px;
+  display: block;
+}
+
+.orderFollow .el_step_box {
+  width: 100%;
+  margin-bottom: 100px;
+  color: #333;
+}
+
+.orderFollow .el_step_box .el-step {
+  width: 100%;
+}
+
+.orderFollow .el_step_box .el-step .el-step__title.is-finish {
+  color: #333;
+}
+
+.orderFollow .el_step_box .el-step .el-step__title {
+  font-size: 12px;
+}
+
+.orderFollow .el_step_box .el-step .el-step__title.is-process {
+  font-weight: none;
+  color: #333;
+}
+
+.orderFollow .el_step_box .el-step .el-step__title .p_Date {
+  background: #fcf3d3;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 1px 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
